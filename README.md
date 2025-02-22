@@ -19,12 +19,12 @@ Url: The website url for the court
 
 Now, how should these be represented within Geo? Before dumping a bunch of data into Geo, lets think about how it should be structured and make sure the necessary Types and Properties are in place. As an example, lets use the US Supreme Court.
 
-Court Name: Supreme Court of the United States
-Start Date: 1789-09-24
-End Date: None
-Jurisdiction: Federal Appellate
-Citation Abbreviation: SCOTUS
-Url: http://supremecourt.gov/
+- Court Name: Supreme Court of the United States
+- Start Date: 1789-09-24
+- End Date: None
+- Jurisdiction: Federal Appellate
+- Citation Abbreviation: SCOTUS
+- Url: http://supremecourt.gov/
 
 First question, what Type should the court be? It isnt a person. It isnt really a company. After looking, it appears we will need to create a new type for Court. 
 
