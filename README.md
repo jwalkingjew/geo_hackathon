@@ -10,12 +10,12 @@ Okay, that is a lot. So, first, lets focus in on our simplest entity. This would
 
 First, lets look at a simple sample of the data exists for a court.
 
-Court Name: The name of the court
-Start Date: The date of courts founding
-End Date: The date the court ended, if it no longer exists.
-Jurisdiction: The jurisdiction of the court (e.g. Federal Appellate, State Supreme, Territory Trial, etc.)
-Citation Abbreviation: The citation abbreviation for the court as dictated by Blue Book
-Url: The website url for the court
+- Court Name: The name of the court
+- Start Date: The date of courts founding
+- End Date: The date the court ended, if it no longer exists.
+- Jurisdiction: The jurisdiction of the court (e.g. Federal Appellate, State Supreme, Territory Trial, etc.)
+- Citation Abbreviation: The citation abbreviation for the court as dictated by Blue Book
+- Url: The website url for the court
 
 Now, how should these be represented within Geo? Before dumping a bunch of data into Geo, lets think about how it should be structured and make sure the necessary Types and Properties are in place. As an example, lets use the US Supreme Court.
 
