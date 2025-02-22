@@ -1,4 +1,4 @@
-# Geo Hackathon
+# Geo Hackathon - Structure Your Data
 
 In order to start publishing data to Geo, you first need to organize and understand your data. Evaluating the different entities withing your dataset will help you structure the necessary Types are Properties that will encompass the Ontology for this area of data. 
 
