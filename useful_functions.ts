@@ -13,17 +13,17 @@ export function createProperty(
 ): [object[], string | null] {
     const triplesAndRelations = [];
 
-    const namePropertyId = SystemIds.NAME_ATTRIBUTE;
-    const descriptionPropertyId = SystemIds.DESCRIPTION_ATTRIBUTE;
+    const namePropertyId = SystemIds.NAME_PROPERTY;
+    const descriptionPropertyId = SystemIds.DESCRIPTION_PROPERTY;
     
-    const propertyId = SystemIds.ATTRIBUTE;
+    const propertyId = SystemIds.PROPERTY;
     const propertiesRelId = SystemIds.PROPERTIES;
     
     const typeSchemaId = SystemIds.SCHEMA_TYPE;
-    const typesAttributeId = SystemIds.TYPES_ATTRIBUTE;
+    const typesAttributeId = SystemIds.TYPES_PROPERTY;
 
     //Value Types
-    const valueTypeId = SystemIds.VALUE_TYPE_ATTRIBUTE; 
+    const valueTypeId = SystemIds.VALUE_TYPE_PROPERTY; 
     const relationId = SystemIds.RELATION;
     const checkboxId = SystemIds.CHECKBOX;
     const timeId = SystemIds.TIME;
@@ -162,11 +162,11 @@ export function createType(
 ): [object[], string | null] {
     const triplesAndRelations = [];
 
-    const namePropertyId = SystemIds.NAME_ATTRIBUTE;
-    const descriptionPropertyId = SystemIds.DESCRIPTION_ATTRIBUTE;
+    const namePropertyId = SystemIds.NAME_PROPERTY;
+    const descriptionPropertyId = SystemIds.DESCRIPTION_PROPERTY;
     
     const typeSchemaId = SystemIds.SCHEMA_TYPE;
-    const typesAttributeId = SystemIds.TYPES_ATTRIBUTE;
+    const typesAttributeId = SystemIds.TYPES_PROPERTY;
 
     const entityId = Id.generate();
 
@@ -182,6 +182,19 @@ export function createType(
     triplesAndRelations.push(nameTriple);
 
     // Conditionally add description if it's not null or undefined
+    if (description) {
+        const descTriple = Triple.make({
+            entityId: entityId,
+            attributeId: descriptionPropertyId,
+            value: {
+                type: "TEXT",
+                value: description,
+            },
+        });
+        triplesAndRelations.push(descTriple);
+    }
+
+    // Conditionally add TypeOf if it's not null or undefined
     if (TypeOf) {
         const typeRel = Relation.make({
             fromId: entityId,
