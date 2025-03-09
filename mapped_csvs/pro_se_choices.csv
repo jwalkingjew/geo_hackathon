@@ -1,0 +1,5 @@
+﻿key,value,description,geo_id
+0,No pro se plaintiffs or defendants,"A legal case in which both the plaintiffs and defendants are represented by licensed attorneys, with no parties acting on their own behalf (without legal representation).",
+1,"Pro se plaintiffs, but no pro se defendants","The plaintiff is representing themselves (acting without a lawyer), while the defendant is represented by an attorney in the case.",
+2,"Pro se defendants, but no pro se plaintiffs","The defendant is acting without legal representation (pro se), while the plaintiff is represented by an attorney in the case.",
+3,Both pro se plaintiffs & defendants,"Both parties in the case (plaintiffs and defendants) representing themselves without legal counsel, with neither side having an attorney.",

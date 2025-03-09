@@ -1,0 +1,6 @@
+﻿key,value,description,geo_id
+no_rep,Not Reported,The committee did not report the nomination for further consideration.,
+rep_w_rec,Reported with Recommendation,The committee reported the nomination with a positive recommendation.,
+rep_wo_rec,Reported without Recommendation,The committee reported the nomination without making a recommendation.,
+rec_postpone,Recommendation Postponed,The committee delayed making a recommendation on the nomination.,
+rec_bad,Recommended Unfavorably,The committee reported the nomination with a negative recommendation.,

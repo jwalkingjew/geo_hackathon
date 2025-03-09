@@ -1,0 +1,7 @@
+﻿key,value,description,geo_id
+Published,Precedential,A court opinion that establishes legal precedent and must be followed by lower courts in future similar cases.,
+Unpublished,Non-Precedential,A court opinion that does not establish binding precedent but may be cited as persuasive authority.,
+Errata,Errata,A correction issued by the court to fix errors in a previously published opinion.,
+Separate,Separate Opinion,"An opinion written by a judge expressing individual views, often concurring or dissenting from the majority.",
+In-chambers,In-chambers,"A decision made by a single judge, typically on procedural matters, without full panel review.",
+Relating-to,Relating-to orders,Orders that pertain to procedural or administrative aspects of a case rather than substantive legal rulings.,

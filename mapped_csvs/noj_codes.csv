@@ -1,0 +1,8 @@
+﻿key,value,description,geo_id
+0,No monetary award,A judgment that does not include any financial compensation.,
+1,Monetary award only,A judgment granting a financial payment without additional relief.,
+2,Monetary award and other,A judgment providing financial compensation along with other legal remedies.,
+3,Injunction,A court order requiring a party to do or refrain from doing a specific act.,
+4,"Forfeiture / foreclosure / condemnation, etc.",A judgment resulting in the loss of property or rights due to legal action.,
+5,Costs only,A judgment awarding reimbursement for court-related expenses without additional damages.,
+6,Costs and attorney fees,"A judgment granting reimbursement for legal expenses, including attorney fees.",

@@ -1,0 +1,11 @@
+﻿key,value,description,geo_id
+ded,Death,"A judge or judicial officer passes away while in office, resulting in the end of their tenure.",
+retire_vol,Voluntary Retirement,"A judge voluntarily ends their service before reaching the mandatory retirement age or term limit, typically opting for retirement after a set number of years on the bench.",
+retire_mand,Mandatory Retirement," A judge is required by law to retire upon reaching a specific age or after serving for a predetermined length of time, as dictated by jurisdictional regulations.",
+resign,Resigned,"A judge voluntarily steps down from their position, often for personal, professional, or health reasons, prior to the end of their term or mandatory retirement age.",
+other_pos,Appointed to Other Judgeship,"A judge is appointed to a different position or court, thereby ending their service in the current position.",
+lost,Lost Election,"A judge who is elected to their position is voted out of office in a subsequent election, resulting in the termination of their judicial service.",
+abolished,Court Abolished,"Occurs when the court or judicial position is eliminated due to administrative restructuring, changes in the law, or political decisions.",
+bad_judge,Impeached and Convicted,"A judge is removed from office after being impeached by the legislative body and convicted of misconduct, criminal behavior, or incapacity.",
+recess_not_confirmed,Recess Appointment Not Confirmed,"A judge appointed to a position during a recess of the legislature fails to receive confirmation upon reconvening, thus terminating their appointment.",
+termed_out,Term Limit Reached,"A judge’s service is terminated after they reach the maximum allowable term as defined by law, regardless of whether they wish to continue serving.",

@@ -1,0 +1,8 @@
+﻿key,value,description,geo_id
+e_part,Election (Partisan),"Election with declared party affiliations, and their political party is listed on the ballot. This method allows voters to consider political ideology.",
+e_non_part,Election (Non-Partisan),Election by the public without any formal party affiliation appearing on the ballot. This method aims to minimize political influence.,
+a_pres,Appointment (President),Nomination by the President of the United States subject to Senate confirmation.,
+a_gov,Appointment (Governor),Nomination by a state governor.,
+a_legis,Appointment (Legislature),Nomination by a state legislature.,
+a_judge,Appointment (Judge),The Chief Justice of the U.S. Supreme Court appoints judges to the Foreign Intelligence Surveillance Court (FISC). These appointments are typically made without Senate confirmation and serve specific national security purposes.,
+ct_trans,Transferred (Court Restructuring),"Judges may be reassigned to a different court due to structural changes in the judiciary. This can occur when courts merge, split, or undergo jurisdictional modifications.",

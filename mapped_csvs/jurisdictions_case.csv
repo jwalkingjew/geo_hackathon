@@ -1,0 +1,6 @@
+﻿key,value,description,geo_id
+1,Government plaintiff,"A jurisdiction where the government initiates the lawsuit as the plaintiff, typically in criminal cases or civil enforcement actions.",
+2,Government defendant,"A jurisdiction where the government is the defendant, usually in cases involving constitutional claims, administrative disputes, or civil rights violations.",
+3,Federal question,"A jurisdiction based on cases involving the U.S. Constitution, federal laws, or treaties, allowing federal courts to hear the matter.",
+4,Diversity of citizenship,"A jurisdiction where parties are from different states or countries, and the amount in controversy exceeds a statutory threshold, granting federal courts authority to hear the case.",
+5,Local question,"A jurisdiction concerning legal matters governed solely by state or municipal law, typically handled in state or local courts.",

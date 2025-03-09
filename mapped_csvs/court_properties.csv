@@ -1,0 +1,9 @@
+﻿id,name,description,typeOf,valueType,propertyOf,relationValueType,choices,tableName,columnLabel,geo_id
+1,Name,,Property,TEXT,Court,,,search_court,full_name,LuBWqZAu6pz54eiJS5mLv8
+2,Citation abbreviation,The citation abbreviation for the court as dictated by Blue Book.,Property,TEXT,Court,,,search_court,citation_string,P8VNpBkKAXFLJi4xoYQRw5
+3,Start date,,Property,TIME,Court,,,search_court,start_date,6cF7TMDBFwSt5vMENU3Cta
+4,End date,,Property,TIME,Court,,,search_court,end_date,R7X9rnVW49g29XvK5KMTtP
+5,Jurisdiction,The jurisdiction of the court,Property,RELATION,Court,Jurisdiction,jurisdictions_court,search_court,jurisdiction,LpN6DJL7dmBNiyfZtDkyQk
+6,Website,,Property,URL,Court,,,search_court,url,WVVjk5okbvLspwdY1iTmwp
+7,Appeals to,Designates the court that appeals are sent to from this court.,Property,RELATION,Court,Court,,search_court_appeals_to,to_court_id,48e8piq7x4ESSV1fuzGQeT
+8,Receives appeals from,Designates the court or courts that send appeals to this court.,Property,RELATION,Court,Court,,search_court_appeals_to,from_court_id,TRMfyr9YcL4MBuvTVrChRv

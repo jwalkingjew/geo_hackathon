@@ -1,0 +1,5 @@
+﻿id,name,description,typeOf,valueType,propertyOf,relationValueType,choices,tableName,columnLabel,geo_id
+1,Docket,,Property,RELATION,Argument,Docket,,audio_audio,docket_id,
+2,Download URL,,Property,URL,Argument,,,audio_audio,download_url,
+3,Website,,Property,URL,Argument,,,audio_audio,filepath_ia,WVVjk5okbvLspwdY1iTmwp
+4,Duration (seconds),,Property,NUMBER,Argument,,,audio_audio,duration,

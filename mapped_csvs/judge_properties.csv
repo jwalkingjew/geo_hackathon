@@ -1,0 +1,10 @@
+﻿id,name,description,typeOf,valueType,propertyOf,relationValueType,choices,tableName,geo_id
+1,Name,,Property,TEXT,Judge,,,people_db_people,LuBWqZAu6pz54eiJS5mLv8
+2,Date of birth,,Property,TIME,Judge,,,people_db_people,3QdZ7QrPPGhvf6uMp7jAQi
+3,Date of death,,Property,TIME,Judge,,,people_db_people,MZG6NbE8Ep5SDgZcnDQPFX
+4,Ethnicity,,Property,RELATION,Judge,Ethnicity,ethnicities,people_db_person_race,U63bdnHPEi5SW16MVSNGTW
+5,Gender,,Property,RELATION,Judge,Gender,genders,people_db_people,5TfoSkkYjRLWeFo7JY8L4v
+6,Political party,,Property,RELATION,Judge,Political Party,political_parties,people_db_politicalaffiliation,Wwjdxo6vQRRK7ttEVtjBE4
+7,Religion,,Property,RELATION,Judge,Religion,religions,people_db_people,BQ8qULbc1jPMPxmLZzG4WE
+8,Worked at,,Property,RELATION,Judge,,,,8fvqALeBDwEExJsDeTcvnV
+9,Works at,,Property,RELATION,Judge,,,,U1uCAzXsRSTP4vFwo1JwJG

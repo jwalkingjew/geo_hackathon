@@ -1,0 +1,4 @@
+﻿key,value,description,geo_id
+s ,Senate,Confirmed through a vote in the Senate.,
+p ,Election (Partisan),Elected in a partisan election with party affiliation on the ballot.,
+np,Election (Non-Partisan),Elected in a non-partisan election without party labels on the ballot.,

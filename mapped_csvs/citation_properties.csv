@@ -1,0 +1,6 @@
+﻿id,name,description,typeOf,valueType,propertyOf,relationValueType,choices,tableName,columnLabel,geo_id
+1,Cited by,Represents relationships to other entities that cite this entity,Property,RELATION,Citation,Opinion,,search_opinionscited,citing_opinion_id,NS7jmNwnf93qzSv2hLtAhT
+2,Cites,A relation between an entity to others which it cites.,Property,RELATION,Citation,Opinion,,search_opinionscited,cited_opinion_id,CY4bekcd3Lt3p6QrUJHTkd
+3,Citation count,"The number of times a particular case or legal opinion has been cited in subsequent judicial decisions, indicating its influence on legal precedent.",Property,NUMBER,Citation,,,search_opinionscited,depth,FdMxhinstxF1VBtbeZVtxh
+4,Parenthetical,"A brief explanatory phrase placed in parentheses within a legal citation to provide context, summarize a holding, or clarify how a cited case is relevant to the argument.",Property,TEXT,Citation,,,search_parenthetical_v2,text,BF5b1bQ9NZwuDzywMQxGNg
+5,Parenthetical score,,Property,NUMBER,Citation,,,search_parenthetical_v2,score,

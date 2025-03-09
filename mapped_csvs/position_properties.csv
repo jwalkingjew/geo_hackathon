@@ -1,0 +1,26 @@
+﻿id,name,description,typeOf,valueType,propertyOf,relationValueType,choices,tableName,columnLabel,geo_id
+1,Role,,Property,RELATION,,Role,role_map,people_db_position,"position_type, job_title",VGKSRGzxCRvQxpJP7CB4wj
+2,Start time,,Property,TIME,,,,people_db_position,date_start,6cF7TMDBFwSt5vMENU3Cta
+3,End time,,Property,TIME,,,,people_db_position,date_termination,R7X9rnVW49g29XvK5KMTtP
+4,Termination reason,,Property,RELATION,,Termination Reason,termination_reasons,people_db_position,termination_reason,WpgwJUhxfvdL9WGEUJDaSY
+5,Date retired,The date when a judge becomes a senior judge by going into active retirement.,Property,TIME,,,,people_db_position,date_retirement,BXomrhvB1qGzF9AC1HevqC
+6,Sector,,Property,RELATION,,Sector,sectors,people_db_position,sector,QbW2fGzADs4dDKLYgSFBjy
+7,Supervisor,"The supervisor to this position. In the case of a clerkship, the supervising judge.",Property,RELATION,,Person,,people_db_position,supervisor_id,VFjq1AyeTikg8TiUCAKjre
+8,Predecessor,The person that previously held this position.,Property,RELATION,,Person,,people_db_position,predecessor_id,HSXjx1ffT1ZF39V6e2WYhz
+9,Selection method,,Property,RELATION,,Selection Method,selection_methods,people_db_position,how_selected,Jp9LQT7fEwrzUaKcvN3qCv
+10,Appointed by,"If this is an appointed position, the person-position responsible for the appointment.",Property,RELATION,,Person,,people_db_position,appointer_id,L1gd5xCzbiYv7R8UQDQLAE
+11,Nomination process,,Property,RELATION,,Nomination Process,nomination_processes,people_db_position,nomination_process,AGgyqdCtPbWAFtLu6NFBq1
+12,Date nominated,"The date recorded in the Senate Executive Journal when a federal judge was nominated for their position or the date a state judge nominated by the legislature. When a nomination is by primary election, this is the date of the election. When a nomination is from a merit commission, this is the date the nomination was announced.",Property,TIME,,,,people_db_position,date_nominated,Vq4CSd8E1SUCEaem3Rx2kq
+13,Judicial Committee actions,,Property,RELATION,,Judicial Committee Action,judicial_committee_actions,people_db_position,judicial_committee_action,EPRnwm6DGamm1FUgWTPviQ
+14,Date referred to judicial committee,Federal judges are usually referred to the Judicial Committee before being nominated. This is the date of that referral.,Property,TIME,,,,people_db_position,date_referred_to_judicial_committee,KajgZv66AruNMfiKyBTFMX
+15,Date of judicial committee action,The date that the Judicial Committee took action on the referral.,Property,TIME,,,,people_db_position,date_judicial_committee_action,LitBkpvtuc8WGYGjJFUmtG
+16,Date elected,Judges are elected in most states. This is the date of their first election. This field will be null if the judge was initially selected by nomination.,Property,TIME,,,,people_db_position,date_elected,3U6v8KHGrWccJMGYUskWfC
+17,Date of recess appointment,"If a judge was appointed while congress was in recess, this is the date of that appointment.",Property,TIME,,,,people_db_position,date_recess_appointment,Y8V2Xzij3EBrk7eeHUp5Lh
+18,Date hearing,"After being nominated, a judge is usually subject to a hearing. This is the date of that hearing.",Property,TIME,,,,people_db_position,date_hearing,GoywoVtT9zM5gBNK2dMBPE
+19,Date confirmed,After the hearing the senate will vote on judges. This is the date of that vote.,Property,TIME,,,,people_db_position,date_confirmation,7HcLpi7gaNq1imd64dksvt
+20,Vote type,,Property,RELATION,,Vote Type,vote_types,people_db_position,vote_type,NNAmtzreGiU7ZYVyNARFjG
+21,Voice vote,Whether the Senate voted by voice vote for this position.,Property,CHECKBOX,,,,people_db_position,voice_vote,LcVh9XZVhxEgT93AAZWXEh
+22,Votes yes,"If votes are an integer, this is the number of votes in favor of a position.",Property,NUMBER,,,,people_db_position,votes_yes,P2fETWwsNtRdwecTXfEJDr
+23,Votes no,"If votes are an integer, this is the number of votes opposed to a position.",Property,NUMBER,,,,people_db_position,votes_no,T9x3ogeDvVMvjyyZXAa3Fe
+24,Votes yes (percent),"If votes are a percentage, this is the percentage of votes in favor of a position.",Property,NUMBER,,,,people_db_position,votes_yes_percent,7tcDxJFDTP61pKTFFhaKAm
+25,Votes no (percent),"If votes are a percentage, this is the percentage of votes opposed to a position.",Property,NUMBER,,,,people_db_position,votes_no_percent,DNqUien3tMhn4pWLXZnezY

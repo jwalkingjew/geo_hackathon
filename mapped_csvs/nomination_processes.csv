@@ -1,0 +1,5 @@
+﻿key,value,description,geo_id
+fed_senate,U.S. Senate,Nominated and confirmed by the U.S. Senate.,
+state_senate,State Senate,Nominated and confirmed by a state senate.,
+election,Primary Election,Selected through a primary election process.,
+merit_comm,Merit Commission,Merit commission reviews candidates and recommends appointments.,

@@ -1,0 +1,5 @@
+﻿key,value,description,geo_id
+1,Plaintiff,The judgement in a court case favors the plaintiff.,
+2,Defendant,The judgement in a court case favors the defendant.,
+3,Both plaintiff and defendant,The judgement in a court case favors both the plaintiff defendant.,
+4,Unknown,It is unknown who the judgement in a court case favors.,

@@ -1,0 +1,4 @@
+﻿key,value,description,geo_id
+M,Mandatory,"Mandatory arbitration refers to a legal requirement where parties to a dispute must submit their case to arbitration, typically as a condition stipulated by law or contract, and cannot resort to litigation unless specified exceptions apply.",
+V,Voluntary,"Voluntary arbitration occurs when parties voluntarily agree to resolve their dispute through an arbitrator, bypassing the court system, with both sides consenting to the process and the finality of the arbitrator’s decision.",
+E,Exempt,"Exempt arbitration refers to certain cases or parties that are excluded from the arbitration process, either by statute or contractual agreement, and are permitted to proceed with litigation instead of arbitration.",

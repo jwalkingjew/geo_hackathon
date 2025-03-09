@@ -1,0 +1,4 @@
+﻿key,value,description,geo_id
+1,Conservative,"A conservative ideological leaning in court decisions typically favors interpreting the law in a strict, traditional manner, emphasizing originalism or textualism, and often resists changes to established legal precedents or societal norms.",
+2,Liberal,"A liberal ideological leaning in court decisions generally favors a more expansive interpretation of constitutional rights, prioritizing individual liberties, social justice, and the adaption of the law to evolving societal values.",
+3,Unspecifiable,"An unspecifiable ideological leaning indicates that the court's decision cannot easily be categorized as conservative or liberal, often due to the complex nature of the case, the unpredictable alignment of the judges, or the application of legal principles that transcend political ideologies.",

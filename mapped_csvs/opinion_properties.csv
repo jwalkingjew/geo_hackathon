@@ -1,0 +1,20 @@
+﻿id,name,description,typeOf,valueType,propertyOf,relationValueType,choices,tableName,columnLabel,geo_id
+1,Disposition,"The final outcome of a case as determined by the court, such as ""affirmed,"" ""reversed,"" ""remanded,"" or ""dismissed.""",Property,TEXT,Opinion,,,search_opinioncluster,disposition,XFmnjQRUBVwt62we4us1gc
+2,Authors,,Property,RELATION,Opinion,Person,,search_opinion,author_id,JzFpgguvcCaKhbQYPHsrNT
+3,Joined by,,Property,RELATION,Opinion,Person,,search_opinion_joined_by,,
+4,Docket,The docket associated with this opinion or argument,Property,RELATION,Opinion,Docket,,search_opinioncluster,docket_id,4K1t5TDdFmnZhifHGMdgtm
+5,Opinion type,,Property,RELATION,Opinion,Opinion Type,opinion_types,search_opinion,type,XfCzncxMqdXGg3m5Ue3RqJ
+6,Per curiam,"A court decision issued collectively and anonymously by the judges or justices, without a single author’s name attached, often used for unanimous or uncontroversial rulings.",Property,CHECKBOX,Opinion,,,search_opinion,per_curiam,B2nEwGGHdsEsDo142U4w8S
+7,Decision leaning,"The ideological ""direction"" of a decision in the Supreme Court database",Property,RELATION,Opinion,Ideological Leaning,scdb_decision_directions,search_opinioncluster,scdb_decision_direction,Dr8RR13sg98qZaqTg3J2hk
+8,Majority votes,"The number of justices or judges who agree on the final ruling in a case, forming the controlling opinion that sets the precedent.",Property,NUMBER,Opinion,,,search_opinioncluster,scdb_votes_majority,WfNmVnqfSa2DQY3asXpYuv
+9,Minority votes,"The dissenting votes in a case, representing the judges who disagreed with the majority and may issue a dissenting opinion explaining their reasoning.",Property,NUMBER,Opinion,,,search_opinioncluster,scdb_votes_minority,YMJBwdWseXLWWSAb4YXyEr
+10,Attorneys,"Legal professionals who represent parties in legal proceedings, providing counsel, advocacy, and defense in court or negotiations.",Property,TEXT,Opinion,,,search_opinioncluster,attorneys,585sZ4CMDQ4vEaApkrGVQC
+11,Syllabus,"A summary of the court’s ruling prepared by the court reporter, which provides an overview of the case, legal issues, and conclusions, but is not considered binding precedent.",Property,TEXT,Opinion,,,search_opinioncluster,syllabus,VPdFjsrDffu3g3easnn6mc
+12,Summary,"A concise explanation of a case’s key facts, legal issues, and the court’s ruling, often used in legal databases and case law research.",Property,TEXT,Opinion,,,search_opinioncluster,summary,W5yAJBMyAyvQCap8cKuLkL
+13,Correction,"A modification or amendment to a court opinion or legal document, usually made to fix errors in citations, facts, or legal reasoning.",Property,TEXT,Opinion,,,search_opinioncluster,correction,HNQwXQJuxbqQ24ziKL472Z
+14,Citation count,"The number of times a particular case or legal opinion has been cited in subsequent judicial decisions, indicating its influence on legal precedent.",Property,NUMBER,Opinion,,,search_opinioncluster,citation_count,FdMxhinstxF1VBtbeZVtxh
+15,Precedential status," A designation indicating whether a court decision serves as binding legal authority for future cases, with precedential opinions guiding lower courts and non-precedential opinions applying only to the specific case.",Property,RELATION,Opinion,Precedential Status,precedential_statuses,search_opinioncluster,precedential_status,W9BVf9Mkfa8FPL59ZPDx2K
+16,Parenthetical,"A brief explanatory phrase placed in parentheses within a legal citation to provide context, summarize a holding, or clarify how a cited case is relevant to the argument.",Property,TEXT,Opinion,,,search_parenthetical_v2,text,BF5b1bQ9NZwuDzywMQxGNg
+17,Cites,A relation between an entity to others which it cites.,Property,RELATION,Opinion,Opinion,,search_opinionscited,cited_opinion_id,
+18,Cited by,Represents relationships other entities that site this entity,Property,RELATION,Opinion,Opinion,,search_opinionscited,citing_opinion_id,
+19,Posture,The procedural posture of the case.,Property,TEXT,Opinion,,,search_opinioncluster,posture,
