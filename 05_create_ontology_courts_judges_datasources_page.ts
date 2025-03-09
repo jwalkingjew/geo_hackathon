@@ -204,7 +204,7 @@ async function main() {
             blockOps = DataBlock.make({
                 fromId: pageId,
                 sourceType: 'QUERY',
-                name: `${jurisdiction.name} Courts`,
+                name: `${jurisdiction.value} Courts`,
                 position: Position.createBetween()
             });
             ops.push(...blockOps);
@@ -215,9 +215,9 @@ async function main() {
     
             //SET THE FILTERS FOR THE DATA BLOCK
             let courtTypeId = await getTypeInfo("Court", client);
-            let jurisdictionTypeId = await getTypeInfo("Jurisdiction", client);
+            [jurisdictionPropId, choiceId] = await getPropertyInfo("Court", "Jurisdiction", null, client)
             //SET THE FILTERS FOR THE DATA BLOCK
-            filter = `{"where":{"spaces":["${spaceId}"],"AND":[{"attribute":"${SystemIds.TYPES_PROPERTY}","is":"${courtTypeId}"},{"attribute":"${jurisdictionTypeId}","is":"${jurisdiction.geo_id}"}]}}`
+            filter = `{"where":{"spaces":["${spaceId}"],"AND":[{"attribute":"${SystemIds.TYPES_PROPERTY}","is":"${courtTypeId}"},{"attribute":"${jurisdictionPropId}","is":"${jurisdiction.geo_id}"}]}}`
             //NOTE NEED TO ADD TYPE IS JUDGE TO THIS, BUT NOW IT CAN BE PERSON
             addOps = Triple.make({
                     entityId: blockId,
