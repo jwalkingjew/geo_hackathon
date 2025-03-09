@@ -1,3 +1,13 @@
+# Understanding this code base
+
+The first thing you should do is structure your data using the process outlined in the next section.
+
+Once you have your data properly structured, you can create a table containing all the necessary types you need to create. You can use file 01_create_necessary_types.ts to push all those types at once. Similarly, you can create a table with all the necessary properties for your space and use the file 02_setup_properties.ts to push all of those properties at once. 
+
+Examples of these table setups can be found in the mapped_csvs folder.
+
+As an example using my data set, you can see how each of the entities in the [US Law](https://www.geobrowser.io/space/Q5YFEacgaHtXE9Kub9AEkA) space were created in the various "process_ENTITYNAME.ts" files in the "src" folder. Each of those files were used together, sometimes recursively. Ultimately, the three main files in this folder were used to iteratively push the entities to Geo.
+
 # Geo Hackathon - Structure Your Data
 
 In order to start publishing data to Geo, you first need to organize and understand your data. Evaluating the different entities withing your dataset will help you structure the necessary Types are Properties that will encompass the Ontology for this area of data. 
@@ -140,8 +150,7 @@ const scotusJurisdictionRelation = Relation.make({
       toId: federalAppellateId,
       relationTypeId: jurisdictionPropertyId,
 });
-
-
 ```
+
 
 Okay, now we have created our first court. To see the final product, you can see The Supreme Court [here](https://geogenesis-git-feat-testnet-geo-browser.vercel.app/space/EzQsF1VvvPV5FVqcp6YTtt/UQPkVXbPH3jJNX59mmSxZ8), from which you can link to all the other types and properties created!
